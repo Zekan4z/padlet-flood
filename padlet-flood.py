@@ -6,7 +6,7 @@ executors = ThreadPoolExecutor(max_workers=20)
 times = 100
 
 def randomStr(length):
-	mode = random.randrange(1, 3)
+	mode = random.randrange(1, 4)
 	text = ""
 	for i in range(length):
 		if mode == 1:
